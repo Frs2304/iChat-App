@@ -12,7 +12,7 @@ iChat is a simple chat application built using the Node.js frameworks, Express.j
 
     Clone the repository: git clone https://github.com/Frs2304/iChat-App.git
     Install dependencies: npm install
-    Start the server: npm start
+    Start the server: npm run dev
     Open the app in your browser at http://localhost:4000
     
 ## Usage
