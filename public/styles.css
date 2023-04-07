@@ -39,5 +39,14 @@ body {
     border: none;
     margin: 0px 12px;
     outline: none;
-
+    background-color: #ebebeb;
+}
+.message-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    width: 400px;
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
