@@ -1,16 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+
+import "./App.css";
+
+import AuthPage from "./AuthPage";
+import ChatsPage from "./ChatsPage";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [user, setUser] = useState(undefined);
 
-  return (
-    <div className="App">
-      
-    </div>
-  )
+  if (!user) {
+    return <AuthPage onAuth={(user) => setUser(user)} />;
+  } else {
+    return <ChatsPage user={user} />;
+  }
 }
 
-export default App
+export default App;
