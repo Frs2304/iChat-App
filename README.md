@@ -23,8 +23,9 @@ iChat is a simple chat application built using the Node.js frameworks, Express.j
     Send a message: Once you've joined a chat room, type your message in the input field at the bottom of the screen and press enter to send it.
     Receive messages: As other users in the chat room send messages, you will see them appear in real time on your screen.
     
-## Technologies Used
-    React.js
-    Express.js
-    ChatEngine
+## Technologies
+    React.js: A JavaScript library for building user interfaces
+    Express.js: A web application framework for Node.js
+    Chatengine: A chat SDK and API that provides real-time chat infrastructure
+    Vite: A build tool that serves as a fast development server and bundler for modern web applications.
     
