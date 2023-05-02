@@ -1,6 +1,6 @@
 # iChat - Real-time Chat App using React.js, Express.js, and ChatEngine.
 
-iChat is a simple chat application built using the Node.js frameworks, Express.js and Socket.io. The application allows users to join chat rooms and communicate with each other in real-time.
+iChat is a simple chat application built using the React.js, Node.js, Express.js and Socket.io frameworks. The application allows users to join chat rooms and communicate with each other in real-time.
 
 ## Features
 
